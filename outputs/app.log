@@ -1,0 +1,58 @@
+2026-04-05 19:16:12,140 - src.Strategies.logger - INFO - === Dispersion Trade Snapshot ===
+2026-04-05 19:16:12,141 - src.Strategies.logger - INFO - As-of: 2021-09-01
+2026-04-05 19:16:12,141 - src.Strategies.logger - INFO - Expiry: 2021-10-01
+2026-04-05 19:16:12,141 - src.Strategies.logger - INFO - 
+2026-04-05 19:16:12,141 - src.Strategies.logger - INFO - === Straddles ===
+2026-04-05 19:16:12,141 - src.Strategies.logger - INFO - SPY spot=451.8500 strike=452.00 qty=-1.000000
+2026-04-05 19:16:12,141 - src.Strategies.logger - INFO - AAPL spot=152.5400 strike=155.00 qty=1.532067
+2026-04-05 19:16:12,141 - src.Strategies.logger - INFO - 
+2026-04-05 19:16:12,141 - src.Strategies.logger - INFO - === Metric Matching ===
+2026-04-05 19:16:12,142 - src.Strategies.logger - INFO - Metric used: theta_notional
+2026-04-05 19:16:12,143 - src.Strategies.logger - INFO - SPY total metric: 18.979705
+2026-04-05 19:16:12,143 - src.Strategies.logger - INFO - AAPL total metric: -18.979705
+2026-04-05 19:16:12,143 - src.Strategies.logger - INFO - 
+2026-04-05 19:16:12,143 - src.Strategies.logger - INFO - === Portfolio Theta ===
+2026-04-05 19:16:12,143 - src.Strategies.logger - INFO - Portfolio theta/day: 0.000000
+2026-04-05 19:16:12,143 - src.Strategies.logger - INFO - 
+2026-04-05 19:16:12,143 - src.Strategies.logger - INFO - === Delta by Symbol Before Hedge Execution ===
+2026-04-05 19:16:12,143 - src.Strategies.logger - INFO - SPY: -0.566057 shares
+2026-04-05 19:16:12,143 - src.Strategies.logger - INFO - AAPL: -27.052228 shares
+2026-04-05 19:16:12,144 - src.Strategies.logger - INFO - 
+2026-04-05 19:16:12,144 - src.Strategies.logger - INFO - === Hedge Trades Executed ===
+2026-04-05 19:16:12,144 - src.Strategies.logger - INFO - SPY: trade 0.566057 shares -> new stock position 0.566057
+2026-04-05 19:16:12,144 - src.Strategies.logger - INFO - AAPL: trade 27.052228 shares -> new stock position 27.052228
+2026-04-05 19:16:12,144 - src.Strategies.logger - INFO - 
+2026-04-05 19:16:12,144 - src.Strategies.logger - INFO - === Delta by Symbol After Hedge Execution ===
+2026-04-05 19:16:12,144 - src.Strategies.logger - INFO - SPY: 0.000000 shares
+2026-04-05 19:16:12,144 - src.Strategies.logger - INFO - AAPL: 0.000000 shares
+2026-04-05 19:16:12,146 - src.Strategies.logger - INFO - 
+2026-04-05 19:16:12,146 - src.Strategies.logger - INFO - === Portfolio Value After Hedge Execution ===
+2026-04-05 19:16:12,146 - src.Strategies.logger - INFO - Portfolio market value: 0.000000
+2026-04-05 19:16:12,146 - src.Strategies.logger - INFO - Cash: -4452.835295
+2026-04-05 19:16:12,146 - src.Strategies.logger - INFO - Option market value: 70.515730
+2026-04-05 19:16:12,146 - src.Strategies.logger - INFO - Stock market value: 4382.319565
+2026-04-05 19:16:12,146 - src.Strategies.logger - INFO - 
+2026-04-05 19:18:13,614 - src.Strategies.logger - INFO - [Batch 1/12] Running entry date 2021-01-04...
+2026-04-05 19:20:10,899 - src.Strategies.logger - INFO - [Batch 1/12] Completed | final pnl=-144.455730 | max drawdown=-621.586459
+2026-04-05 19:20:10,899 - src.Strategies.logger - INFO - [Batch 2/12] Running entry date 2021-02-01...
+2026-04-05 19:22:07,681 - src.Strategies.logger - INFO - [Batch 2/12] Completed | final pnl=-452.291906 | max drawdown=-627.151736
+2026-04-05 19:22:07,681 - src.Strategies.logger - INFO - [Batch 3/12] Running entry date 2021-03-01...
+2026-04-05 19:24:05,424 - src.Strategies.logger - INFO - [Batch 3/12] Completed | final pnl=194.305618 | max drawdown=-251.111574
+2026-04-05 19:24:05,424 - src.Strategies.logger - INFO - [Batch 4/12] Running entry date 2021-04-01...
+2026-04-05 19:25:48,649 - src.Strategies.logger - INFO - [Batch 4/12] Completed | final pnl=-51.049493 | max drawdown=-134.712627
+2026-04-05 19:25:48,649 - src.Strategies.logger - INFO - [Batch 5/12] Running entry date 2021-05-03...
+2026-04-05 19:27:44,912 - src.Strategies.logger - INFO - [Batch 5/12] Completed | final pnl=409.403709 | max drawdown=-264.787923
+2026-04-05 19:27:44,912 - src.Strategies.logger - INFO - [Batch 6/12] Running entry date 2021-06-01...
+2026-04-05 19:29:40,825 - src.Strategies.logger - INFO - [Batch 6/12] Completed | final pnl=242.235077 | max drawdown=-335.184017
+2026-04-05 19:29:40,825 - src.Strategies.logger - INFO - [Batch 7/12] Running entry date 2021-07-01...
+2026-04-05 19:31:24,754 - src.Strategies.logger - INFO - [Batch 7/12] Completed | final pnl=-49.606559 | max drawdown=-156.037420
+2026-04-05 19:31:24,754 - src.Strategies.logger - INFO - [Batch 8/12] Running entry date 2021-08-02...
+2026-04-05 19:33:26,190 - src.Strategies.logger - INFO - [Batch 8/12] Completed | final pnl=151.488112 | max drawdown=-342.741503
+2026-04-05 19:33:26,191 - src.Strategies.logger - INFO - [Batch 9/12] Running entry date 2021-09-01...
+2026-04-05 19:35:13,946 - src.Strategies.logger - INFO - [Batch 9/12] Completed | final pnl=48.323886 | max drawdown=-168.751615
+2026-04-05 19:35:13,946 - src.Strategies.logger - INFO - [Batch 10/12] Running entry date 2021-10-01...
+2026-04-05 19:37:19,770 - src.Strategies.logger - INFO - [Batch 10/12] Completed | final pnl=-215.510481 | max drawdown=-384.585586
+2026-04-05 19:37:19,771 - src.Strategies.logger - INFO - [Batch 11/12] Running entry date 2021-11-01...
+2026-04-05 19:39:15,771 - src.Strategies.logger - INFO - [Batch 11/12] Completed | final pnl=-152.816157 | max drawdown=-695.544227
+2026-04-05 19:39:15,771 - src.Strategies.logger - INFO - [Batch 12/12] Running entry date 2021-12-01...
+2026-04-05 19:41:02,690 - src.Strategies.logger - INFO - [Batch 12/12] Completed | final pnl=455.365278 | max drawdown=-649.294167

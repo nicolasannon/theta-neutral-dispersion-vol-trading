@@ -1,0 +1,2 @@
+symbol,asof,status,message,model_name,rate_cc,dividend_yield_cc,num_quotes_total,num_quotes_fit,num_expiries,mse_fit_vol,params,selected_expiry
+SPY,2021-09-01,ok,,SSVI,0.0006997551142732649,0.0,8654,4841,33,0.004067385838605007,"(0.15999643, -0.54586138, 1.70733153, 0.5)",2021-10-01

@@ -1,0 +1,2 @@
+symbol,asof,status,message,model_name,rate_cc,dividend_yield_cc,num_quotes_total,num_quotes_fit,num_expiries,mse_fit_vol,params,selected_expiry
+AAPL,2021-09-01,ok,,SSVI,0.0006997551142732649,0.0,1587,849,18,0.01807961311391706,"(0.25807657, -0.17643464, 1.51182954, 0.5)",2021-10-01

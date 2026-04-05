@@ -1,0 +1,2 @@
+num_runs,mean_final_pnl,median_final_pnl,std_final_pnl,min_final_pnl,max_final_pnl,win_rate,mean_total_transaction_costs,mean_turnover_notional,mean_max_drawdown,worst_max_drawdown
+12.0,36.28261282011594,-0.6413365230288335,255.14505377733815,-452.29190594434243,455.3652775491334,0.5,23.534617916095794,235346.17916095792,-385.9574046293617,-695.5442271366373
